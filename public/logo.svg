@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 70" width="100%" height="100%" fill="none">
+  <!-- Dermatology (Skin) Leaf / Cellular Symbol -->
+  <g transform="translate(4, 8)">
+    <!-- Skin Emblem in Dermatology Green -->
+    <path d="M22 4 C12 4 4 14 4 27 C4 42 22 52 22 52 C22 52 40 42 40 27 C40 14 32 4 22 4 Z" stroke="#3F7D3A" stroke-width="2.5" fill="none"/>
+    <path d="M22 10 C22 25 10 32 10 32" stroke="#3F7D3A" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    <path d="M22 20 C22 30 34 35 34 35" stroke="#3F7D3A" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    <!-- Orthopaedic Joint / Bone Intersection Emblem in Burgundy -->
+    <circle cx="36" cy="30" r="14" stroke="#7A3038" stroke-width="2.5" fill="none" stroke-dasharray="88" stroke-dashoffset="0"/>
+    <path d="M30 24 L42 36 M42 24 L30 36" stroke="#7A3038" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography: Clean, Editorial, Specialist Doctor Identity -->
+  <text x="74" y="27" font-family="'Cormorant Garamond', 'Georgia', serif" font-size="22" font-weight="700" fill="#344F91" letter-spacing="0.5">DR. LOKHANDE’S</text>
+  
+  <text x="74" y="44" font-family="'Source Sans 3', sans-serif" font-size="11.5" font-weight="600" letter-spacing="1.8" fill="#202321">
+    <tspan fill="#3F7D3A">SKIN</tspan>
+    <tspan fill="#59615D" font-weight="400"> &amp; </tspan>
+    <tspan fill="#7A3038">ORTHOPAEDIC</tspan>
+    <tspan fill="#59615D" font-weight="400"> SPECIALITY CLINIC</tspan>
+  </text>
+  
+  <text x="74" y="58" font-family="'Source Sans 3', sans-serif" font-size="9.5" font-weight="500" letter-spacing="0.8" fill="#59615D">SINHAGAD ROAD, PUNE</text>
+</svg>
