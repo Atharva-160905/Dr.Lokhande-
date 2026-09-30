@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
             
             {/* Col 1: Brand & Overview (4 cols) */}
             <div className="lg:col-span-4 space-y-5">
-              <div className="bg-white p-3 inline-block">
+              <div className="bg-white px-3.5 py-2 rounded shadow-sm inline-flex items-center">
                 <ClinicLogo isFooter={true} />
               </div>
               <p className="text-gray-300 text-sm leading-relaxed pr-4">
@@ -144,6 +144,11 @@ export const Footer: React.FC = () => {
                 <li>
                   <Link href="/specialities" className="hover:text-white transition-colors">
                     All Specialities
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/patient-feedback" className="hover:text-white transition-colors">
+                    Patient Feedback &amp; Stories
                   </Link>
                 </li>
                 <li>

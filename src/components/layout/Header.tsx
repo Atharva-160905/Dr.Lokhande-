@@ -76,7 +76,7 @@ export const Header: React.FC = () => {
       ],
     },
     { name: "About Clinic", href: "/about" },
-    { name: "Patient Feedback", href: "/#feedback" },
+    { name: "Patient Feedback", href: "/patient-feedback" },
     { name: "Contact & Location", href: "/contact" },
   ];
 
@@ -291,10 +291,10 @@ export const Header: React.FC = () => {
                 </Link>
 
                 <Link
-                  href="/#feedback"
+                  href="/patient-feedback"
                   className="block py-2.5 px-3 text-[15px] font-medium text-primary hover:bg-ivory"
                 >
-                  Patient Feedback
+                  Patient Feedback & Recovery Stories
                 </Link>
 
                 <Link

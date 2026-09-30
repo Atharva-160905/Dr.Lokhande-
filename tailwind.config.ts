@@ -59,10 +59,20 @@ const config: Config = {
       },
       boxShadow: {
         none: "none",
-        subtle: "0 1px 2px 0 rgba(32, 35, 33, 0.04)",
+        subtle: "0 1px 2px 0 rgba(0, 0, 0, 0.03)",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 32s linear infinite",
       },
     },
   },
   plugins: [],
 };
+
 export default config;

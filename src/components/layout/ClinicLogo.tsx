@@ -20,7 +20,7 @@ export const ClinicLogo: React.FC<ClinicLogoProps> = ({
       <div
         className={`relative flex items-center ${
           isFooter
-            ? "h-16 sm:h-24 lg:h-28 w-[240px] sm:w-[340px] lg:w-[420px]"
+            ? "h-14 sm:h-16 w-[220px] sm:w-[260px] max-w-full"
             : "h-10 sm:h-13 md:h-14 lg:h-16 xl:h-[68px] w-[170px] sm:w-[220px] md:w-[280px] lg:w-[350px] xl:w-[380px]"
         }`}
       >
@@ -31,7 +31,7 @@ export const ClinicLogo: React.FC<ClinicLogoProps> = ({
           priority
           sizes={
             isFooter
-              ? "(max-width: 640px) 240px, (max-width: 1024px) 340px, 420px"
+              ? "(max-width: 640px) 220px, 260px"
               : "(max-width: 640px) 180px, (max-width: 1024px) 280px, 380px"
           }
           className={`object-contain object-left ${
